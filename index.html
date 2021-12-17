@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>Travel Planner</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body class="mdc-typography">
+    <h2 class="mdc-typography--headline1">Welcome</h2>
+
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell--span-6" style="background: azure;">
+                <div>
+
+                    <h3 class="mdc-typography--headline3">Create New Trip</h3>
+
+                    <div class="mdc-form-field" style="flex-direction: column;">
+                        <label for="trip-input" class="mdc-typography--subtitle1">Your Trip Name</label>
+                        <label class="mdc-text-field mdc-text-field--filled mdc-text-field--no-label"
+                            style="width: 100%;">
+                            <span class="mdc-text-field__ripple"></span>
+                            <input class="mdc-text-field__input" type="text" placeholder="Placeholder text"
+                                aria-label="Label" id="trip-input">
+                            <span class="mdc-line-ripple"></span>
+                        </label>
+                    </div>
+                    <label>Activities to Do: </label>
+                    <div class="mdc-form-field" id="Activities">
+
+                    </div>
+
+                    <label>Places to Visit: </label>
+                    <div class="mdc-form-field" id="Places">
+
+                    </div>
+                    <br>
+                    <button class="mdc-button mdc-button--outlined" onclick="newTrip()">
+                        <span class="mdc-button__ripple"></span>
+                        <span class="mdc-button__label">Create New Trip</span>
+                    </button>
+                </div>
+
+            </div>
+            <div class="mdc-layout-grid__cell--span-6" id="list_trips">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
