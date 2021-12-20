@@ -1,5 +1,6 @@
 # Final Project
-*** I chose travel planning. The three features will be immersive photography, a compass for users, and fast search tools.
+
+**** I chose travel planning. The three features will be immersive photography, a compass for users, and fast search tools. Also add Travel planner application allowing users to manage and plan their travel seamlessly. Features - 1. Create a new trip to add places and activities for their trip 2. List all the trips 3. Edit/Delete trips from the planner.
 
 
 In this project, you'll build a web application that does anything you want! 
