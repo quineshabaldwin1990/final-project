@@ -1,4 +1,6 @@
 # Final Project
+*** I chose travel planning. The three features will be immersive photography, a compass for users, and fast search tools.
+
 
 In this project, you'll build a web application that does anything you want! 
 
